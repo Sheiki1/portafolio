@@ -1,0 +1,157 @@
+body{
+position: absolute;
+width: 100%;
+
+
+background: #F6F8EB;
+}
+#navBar{
+    position: fixed;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 90.36%;
+
+background: rgba(34, 88, 162, 0.65);
+}
+
+#card {
+    height: 250px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 35%;
+  }
+#lastImg{
+    width: 45%;
+    margin-left:27.5%;
+    margin-right: 27.5%;
+}
+.buttons{
+    margin-top: 10%;
+    margin-left: 17%;
+}
+#cv{
+    color: #EE9FBF;
+    border: 3px solid #EE9FBF;
+    box-sizing: border-box;
+    background: #F6F8EB;
+}
+#inf{
+    color: #EE9FBF;
+    border: 3px solid #EE9FBF;
+    box-sizing: border-box;
+    background: #F6F8EB;
+}
+h1{
+    text-align: center;
+
+color: #2656C2;
+}
+.skills{
+    background: #F6F8EB;
+border: 5px solid #5A7ECC;
+box-sizing: border-box;
+width: 90%;
+margin:5%
+
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.css{
+  
+  
+  width: 25%;
+  padding: 0;
+  height: 80px;
+  background-image: url("css.jpg");
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position: center;
+  border-radius: 100%;
+}
+.html{
+    
+  
+  width: 25%;
+  padding: 0;
+  height: 80px;
+  background-image: url("html.jpg");
+  background-repeat: no-repeat;
+  background-size: 109px;
+  background-position: center;
+  border-radius: 100%;
+}
+.js{
+  width: 25%;
+  padding: 0;
+  height: 80px;
+  background-image: url("js.png");
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+  border-radius: 100%;
+}
+.discord{
+    width: 25%;
+    padding: 0;
+    height: 80px;
+    background-image: url("discord.png");
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: center;
+    border-radius: 100%;
+  }
+  .git{
+    width: 25%;
+    padding: 0;
+    height: 80px;
+    background-image: url("git.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+   
+  }
+  .firebase{
+    width: 25%;
+    padding: 0;
+    height: 80px;
+    background-image: url("firebase.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+   border-radius: 100%;
+  }
+  .trello{
+    width: 25%;
+    padding: 0;
+    height: 80px;
+    background-image: url("trello.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+   border-radius: 100%;
+  }
+  .visual{
+    width: 25%;
+    padding: 0;
+    height: 80px;
+    background-image: url("visual.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    border-radius: 100%;
+  }
+  .zoom{
+    width: 25%;
+    padding: 0;
+    height: 80px;
+    background-image: url("zoom.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    border-radius: 100%;
+  }
