@@ -11,25 +11,76 @@ background: #F6F8EB;
   right: 0%;
   top: 0%;
   bottom: 90.36%;
-
+  z-index: 1;
   background: rgba(34, 88, 162, 0.65);
 }
+.dropbtn {
+  
+  background: rgba(34, 88, 162, 0.65);
+  color: #f9f9f9;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  top:5px;
+  width: 60px;
+  height: 60px;
+}
 
+.dropdown {
+	position:  fixed;
+  display: inline-block;
+  left:90%;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  right: 0;
+  position: absolute;
+  background: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background:#EE9FBF;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background: #EE9FBF;
+  color: #f9f9f9;
+}
 #card {
-    height: 250px;
+    height: 400px;
+    width: 800px;
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 30%;
+    margin-top: 10%;
   }
 #lastImg{
-    width: 45%;
-    margin-left:27.5%;
-    margin-right: 27.5%;
+  position: absolute;
+    width: 20%;
+    margin-left:75%;
+    border-radius: 150px;
+    top:10% ;
+   
 }
 .buttons{
-  
+   
    margin: 2%;
+
 }
 #cv{
     color: #EE9FBF;
@@ -51,12 +102,13 @@ color: #2656C2;
 .skills{
   display: flex;
   justify-content: center;
-  
+  align-content: center;
     background: #F6F8EB;
 border: 5px solid #5A7ECC;
 box-sizing: border-box;
 width: 90%;
 margin:5%
+
 
 }
 .items{
@@ -66,7 +118,7 @@ margin:5%
 
 }
 .skillsNew{
-  width: 33.33%;
+  width: 15%;
   height: 120px;
   justify-content: center;
 }
@@ -245,7 +297,7 @@ border-radius: 50px 0px 0px 50px;
 }
 .proyect{
   display: flex;
-  flex-direction :column;
+  
   justify-content: center;
   
     background: #F6F8EB;
@@ -292,4 +344,95 @@ img {
   box-sizing: border-box;
   background: #F6F8EB;
  
+}
+
+@media screen and (max-width: 992px) {
+  body{
+    position: absolute;
+    width: 100%;
+    
+    
+    background: #F6F8EB;
+    }
+  #card {
+    
+    height: 300px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+  #btn{
+   
+    margin-left: 15%;
+ 
+ }
+  .skillsNew{
+    width: 20%;
+    height: 120px;
+    justify-content: center;
+  }
+  .proyect{
+    display: flex;
+    
+    justify-content: center;
+    
+      background: #F6F8EB;
+  border: 5px solid #5A7ECC;
+  box-sizing: border-box;
+  width: 90%;
+  margin:5%
+  
+  }
+  #lastImg{
+    position: static;
+    width: 25%;
+    margin-left:37.5%;
+    margin-right: 37.5%;
+    top: 0;
+    
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #card {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30%;
+    margin-left: 0;
+  }
+  .buttons{
+    margin-left: 0;
+    margin: 2%;
+ 
+ }
+  .skillsNew{
+    width: 33.33%;
+    height: 120px;
+    justify-content: center;
+  }
+  .proyect{
+    display: flex;
+    flex-direction :column;
+    justify-content: center;
+    
+      background: #F6F8EB;
+  border: 5px solid #5A7ECC;
+  box-sizing: border-box;
+  width: 90%;
+  margin:5%
+  
+  }
+  #lastImg{
+    position: static;
+    width: 45%;
+    margin-left:27.5%;
+    margin-right: 27.5%;
+    top: 0;
+    
+}
+
 }

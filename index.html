@@ -10,15 +10,27 @@
 <body>
     <script type="module" src="index.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <div id="navBar"></div>
+    <div id="navBar">
+        <div class="dropdown">
+            <button class="dropbtn"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></button>
+            <div class="dropdown-content">
+            <a href="#"><i class="fas fa-address-card" aria-hidden="true"></i> Card</a>
+            <a href="#"><i class="fas fa-laugh" aria-hidden="true"></i> About me</a>
+            <a href="#"><i class="fas fa-wrench" aria-hidden="true"></i> Skills</a>
+            <a href="#"><i class="fas fa-folder-open" aria-hidden="true"></i> Proyectos</a>
+            </div>
+          </div>
+    </div>
     <div id="card">
         <img src="card.png" alt="" srcset="">
     </div>
-    <div class="buttons">
+    <div class="buttons" id="btn">
         <button class="button" id="inf"><b>Contacto</b></button>
         <button class="button" id="cv"><b>Descarga CV</b></button>
     </div>
     <img src="lastImg.png" alt="" srcset="" id="lastImg">
+    <h1 class="title">About me</h1>
+    <div class="skills"></div>
     <h1 class="title">Skills</h1>
     <div class="skills">
         <div class="items">
