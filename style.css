@@ -59,24 +59,89 @@ margin:5%
 .items{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
+}
+.skillsNew{
+  width: 33%;
+  height: 120px;
+}
+.slack{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("slack.jpg");
+  background-repeat: no-repeat;
+  background-size: 140px;
+  background-position: center;
+  border-radius: 100%;
+}
+.bulma{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("bulma.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+
+}
+.xd{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("xd.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  border-radius: 100%;
+}
+.github{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("github.png");
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: center;
+  border-radius: 100%;
+}
+.figma{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("figma.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  
 }
 .css{
   
   
-  width: 25%;
+  width: 80px;
   padding: 0;
   height: 80px;
   background-image: url("css.jpg");
   background-repeat: no-repeat;
-  background-size: 150px;
+  background-size: 180px;
   background-position: center;
   border-radius: 100%;
 }
 .html{
     
   
-  width: 25%;
+  width: 80px;
   padding: 0;
   height: 80px;
   background-image: url("html.jpg");
@@ -86,17 +151,17 @@ margin:5%
   border-radius: 100%;
 }
 .js{
-  width: 25%;
+  width: 80px;
   padding: 0;
   height: 80px;
   background-image: url("js.png");
   background-repeat: no-repeat;
-  background-size: 90px;
+  background-size: 80px;
   background-position: center;
   border-radius: 100%;
 }
 .discord{
-    width: 25%;
+    width:80px;
     padding: 0;
     height: 80px;
     background-image: url("discord.png");
@@ -106,7 +171,7 @@ margin:5%
     border-radius: 100%;
   }
   .git{
-    width: 25%;
+    width: 80px;
     padding: 0;
     height: 80px;
     background-image: url("git.png");
@@ -116,7 +181,7 @@ margin:5%
    
   }
   .firebase{
-    width: 25%;
+    width: 80px;
     padding: 0;
     height: 80px;
     background-image: url("firebase.png");
@@ -126,7 +191,7 @@ margin:5%
    border-radius: 100%;
   }
   .trello{
-    width: 25%;
+    width: 80px;
     padding: 0;
     height: 80px;
     background-image: url("trello.png");
@@ -136,7 +201,7 @@ margin:5%
    border-radius: 100%;
   }
   .visual{
-    width: 25%;
+    width: 80px;
     padding: 0;
     height: 80px;
     background-image: url("visual.png");
@@ -146,7 +211,7 @@ margin:5%
     border-radius: 100%;
   }
   .zoom{
-    width: 25%;
+    width: 80px;
     padding: 0;
     height: 80px;
     background-image: url("zoom.png");
@@ -155,3 +220,22 @@ margin:5%
     background-position: center;
     border-radius: 100%;
   }
+
+  .bar{
+    position: absolute;
+width: 80px;
+height: 30px;
+
+background: #F6F8EB;
+border: 5px solid #EE9FBF;
+box-sizing: border-box;
+border-radius: 50px;
+  }
+.size{
+  position: absolute;
+  width: 60px;
+  height: 25px;
+
+background: #EE9FBF;
+border-radius: 50px 0px 0px 50px;
+}
