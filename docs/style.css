@@ -7,12 +7,12 @@ background: #F6F8EB;
 }
 #navBar{
     position: fixed;
-left: 0%;
-right: 0%;
-top: 0%;
-bottom: 90.36%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 90.36%;
 
-background: rgba(34, 88, 162, 0.65);
+  background: rgba(34, 88, 162, 0.65);
 }
 
 #card {
@@ -20,7 +20,7 @@ background: rgba(34, 88, 162, 0.65);
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-top: 35%;
+    margin-top: 30%;
   }
 #lastImg{
     width: 45%;
@@ -28,8 +28,8 @@ background: rgba(34, 88, 162, 0.65);
     margin-right: 27.5%;
 }
 .buttons{
-    margin-top: 10%;
-    margin-left: 17%;
+  
+   margin: 2%;
 }
 #cv{
     color: #EE9FBF;
@@ -49,6 +49,9 @@ h1{
 color: #2656C2;
 }
 .skills{
+  display: flex;
+  justify-content: center;
+  
     background: #F6F8EB;
 border: 5px solid #5A7ECC;
 box-sizing: border-box;
@@ -63,8 +66,9 @@ margin:5%
 
 }
 .skillsNew{
-  width: 33%;
+  width: 33.33%;
   height: 120px;
+  justify-content: center;
 }
 .slack{
   
@@ -238,4 +242,53 @@ border-radius: 50px;
 
 background: #EE9FBF;
 border-radius: 50px 0px 0px 50px;
+}
+.proyect{
+  display: flex;
+  flex-direction :column;
+  justify-content: center;
+  
+    background: #F6F8EB;
+border: 5px solid #5A7ECC;
+box-sizing: border-box;
+width: 90%;
+margin:5%
+
+}
+
+.card {
+  
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  border-radius: 5px;
+  margin: 5%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+#readme{
+  color: #EE9FBF;
+  border: 3px solid #EE9FBF;
+  box-sizing: border-box;
+  background: #F6F8EB;
+ 
+}
+#page{
+  color: #EE9FBF;
+  border: 3px solid #EE9FBF;
+  box-sizing: border-box;
+  background: #F6F8EB;
+ 
 }
