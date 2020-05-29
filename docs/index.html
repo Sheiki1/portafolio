@@ -14,10 +14,10 @@
         <div class="dropdown">
             <button class="dropbtn"><i class="fas fa-bars fa-2x" aria-hidden="true"></i></button>
             <div class="dropdown-content">
-            <a href="#"><i class="fas fa-address-card fa-2x" aria-hidden="true"></i><h1>Card</h1> </a>
-            <a href="#"><i class="fas fa-laugh fa-2x" aria-hidden="true"></i> <h1>About me</h1></a>
-            <a href="#"><i class="fas fa-wrench fa-2x" aria-hidden="true"></i> <h1>Skills</h1></a>
-            <a href="#"><i class="fas fa-folder-open fa-2x" aria-hidden="true"></i> <h1>Proyectos</h1></a>
+            <a href="#card"><i class="fas fa-address-card fa-lg" aria-hidden="true"></i><h2>Card</h2> </a>
+            <a href="#about"><i class="fas fa-laugh fa-lg" aria-hidden="true"></i> <h2>About me</h2></a>
+            <a href="#skills"><i class="fas fa-wrench fa-lg" aria-hidden="true"></i> <h2>Skills</h2></a>
+            <a href="#projects"><i class="fas fa-folder-open fa-lg" aria-hidden="true"></i> <h2>Proyectos</h2></a>
             </div>
           </div>
     </div>
@@ -26,12 +26,16 @@
     </div>
     <div class="buttons" id="btn">
         <button class="button" id="inf"><b>Contacto</b></button>
-        <button class="button" id="cv"><b>Descarga CV</b></button>
+        <a href="CV_Shei_Miceli.pdf" download="CV_Shei_Miceli"><button class="button" id="cv"><b>Descarga CV</b></button></a>
     </div>
     <img src="lastImg.png" alt="" srcset="" id="lastImg">
-    <h1 class="title">About me</h1>
-    <div class="skills"></div>
-    <h1 class="title">Skills</h1>
+    <h1 class="title" id="about">About me</h1>
+    <div class="skills">
+        <div class="about">
+            <p class="subtitle">"Soy una mujer sumamente interesada en el ámbito tecnológico ya que, a diario, veo las cosas maravillosas que podemos crear y con las cuales se potencia la creatividad humana."</p>
+        </div>
+    </div>
+    <h1 class="title" id="skills">Skills</h1>
     <div class="skills">
         <div class="items">
             <div class="skillsNew">
@@ -120,15 +124,15 @@
             </div>
         </div>      
     </div>
-    <h1 class="title">Proyectos</h1>
+    <h1 class="title" id="projects">Proyectos</h1>
     <div class="proyect">
         <div class="card">
             <img src="cipher.png" alt="Avatar" style="width:100%">
             <div class="container">
                 <h2 class="subtitle"><b>Cifracil</b></h2> 
                 <p>descripcion de proyecto</p> 
-                <button class="button" id="readme"><h3>README</h3></button>
-                <button class="button" id="page"><h3>Ver</h3></button>
+                <a href="https://github.com/Sheiki1/CDMX009-cipher"><button class="button" id="readme" ><h3>README</h3></button></a>
+                <a href="https://sheiki1.github.io/CDMX009-cipher/"><button class="button" id="page" ><h3>Ver</h3></button></a>
             </div>
         </div>
         <div class="card">
@@ -136,8 +140,8 @@
             <div class="container">
                 <h2 class="subtitle"><b>Rick and Morty</b></h2> 
                 <p>descripcion de proyecto</p> 
-                <button class="button" id="readme"><h3>README</h3></button>
-                <button class="button" id="page"><h3>Ver</h3></button>
+                <a href="https://github.com/Sheiki1/CDMX009-Data-Lovers"><button class="button" id="readme"  ><h3>README</h3></button></a>
+                <a href="https://sheiki1.github.io/CDMX009-Data-Lovers/"><button class="button" id="page" ><h3>Ver</h3></button></a>
             </div>
         </div>
     </div>
