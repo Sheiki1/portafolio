@@ -1,0 +1,448 @@
+body{
+position: absolute;
+width: 100%;
+
+
+background: #F6F8EB;
+}
+#navBar{
+    position: fixed;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 90.36%;
+  z-index: 1;
+  background: rgba(34, 88, 162, 0.65);
+}
+.dropbtn {
+  
+  background: rgba(34, 88, 162, 0.65);
+  color: #f9f9f9;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  top:5px;
+  width: 60px;
+  height: 60px;
+}
+
+.dropdown {
+	position:  fixed;
+  display: inline-block;
+  left:80%;
+  background: #f9f9f9;
+}
+
+.dropdown-content {
+  display: none;
+  right: 0;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #2656C2;
+  background-color: #f9f9f9 ;
+  padding: 12px 20px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background:#EE9FBF;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background: #EE9FBF;
+  color: #f9f9f9;
+}
+#card {
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 10%;
+  }
+#lastImg{
+  position: absolute;
+    width: 20%;
+    margin-left:75%;
+    border-radius: 150px;
+    top:10% ;
+   
+}
+.about{
+  margin:5%;
+}
+p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+.buttons{
+   
+   margin: 2%;
+
+}
+#cv{
+    color: #EE9FBF;
+    border: 3px solid #EE9FBF;
+    box-sizing: border-box;
+    background: #F6F8EB;
+}
+#inf{
+    color: #EE9FBF;
+    border: 3px solid #EE9FBF;
+    box-sizing: border-box;
+    background: #F6F8EB;
+}
+h1{
+    text-align: center;
+
+color: #2656C2;
+}
+.skills{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+    background: #F6F8EB;
+border: 5px solid #5A7ECC;
+box-sizing: border-box;
+width: 90%;
+margin:5%
+
+
+}
+.items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.skillsNew{
+  width: 15%;
+  height: 120px;
+  justify-content: center;
+}
+.slack{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("slack.jpg");
+  background-repeat: no-repeat;
+  background-size: 140px;
+  background-position: center;
+  border-radius: 100%;
+}
+.bulma{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("bulma.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+
+}
+.xd{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("xd.png");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  border-radius: 100%;
+}
+.github{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("github.png");
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: center;
+  border-radius: 100%;
+}
+.figma{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("figma.jpg");
+  background-repeat: no-repeat;
+  background-size: 100px;
+  background-position: center;
+  
+}
+.css{
+  
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("css.jpg");
+  background-repeat: no-repeat;
+  background-size: 180px;
+  background-position: center;
+  border-radius: 100%;
+}
+.html{
+    
+  
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("html.jpg");
+  background-repeat: no-repeat;
+  background-size: 109px;
+  background-position: center;
+  border-radius: 100%;
+}
+.js{
+  width: 80px;
+  padding: 0;
+  height: 80px;
+  background-image: url("js.png");
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: center;
+  border-radius: 100%;
+}
+.discord{
+    width:80px;
+    padding: 0;
+    height: 80px;
+    background-image: url("discord.png");
+    background-repeat: no-repeat;
+    background-size: 90px;
+    background-position: center;
+    border-radius: 100%;
+  }
+  .git{
+    width: 80px;
+    padding: 0;
+    height: 80px;
+    background-image: url("git.png");
+    background-repeat: no-repeat;
+    background-size: 170px;
+    background-position: center;
+   
+  }
+  .firebase{
+    width: 80px;
+    padding: 0;
+    height: 80px;
+    background-image: url("firebase.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+   border-radius: 100%;
+  }
+  .trello{
+    width: 80px;
+    padding: 0;
+    height: 80px;
+    background-image: url("trello.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+   border-radius: 100%;
+  }
+  .visual{
+    width: 80px;
+    padding: 0;
+    height: 80px;
+    background-image: url("visual.png");
+    background-repeat: no-repeat;
+    background-size: 80px;
+    background-position: center;
+    border-radius: 100%;
+  }
+  .zoom{
+    width: 80px;
+    padding: 0;
+    height: 80px;
+    background-image: url("zoom.png");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    border-radius: 100%;
+  }
+
+  .bar{
+    position: absolute;
+width: 80px;
+height: 30px;
+
+background: #F6F8EB;
+border: 5px solid #EE9FBF;
+box-sizing: border-box;
+border-radius: 50px;
+  }
+.size{
+  position: absolute;
+  width: 60px;
+  height: 25px;
+
+background: #EE9FBF;
+border-radius: 50px 0px 0px 50px;
+}
+.proyect{
+  display: flex;
+  
+  justify-content: center;
+  
+    background: #F6F8EB;
+border: 5px solid #5A7ECC;
+box-sizing: border-box;
+width: 90%;
+margin:5%
+
+}
+
+.card {
+  background: #F6F8EB;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  border-radius: 5px;
+  margin: 5%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+  background: #F6F8EB;
+}
+
+#readme{
+  color: #EE9FBF;
+  border: 3px solid #EE9FBF;
+  box-sizing: border-box;
+  background: #F6F8EB;
+ 
+}
+#page{
+  color: #EE9FBF;
+  border: 3px solid #EE9FBF;
+  box-sizing: border-box;
+  background: #F6F8EB;
+ 
+}
+
+@media screen and (max-width: 992px) {
+  body{
+    position: absolute;
+    width: 100%;
+    
+    
+    background: #F6F8EB;
+    }
+  #card {
+    
+    height: 300px;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 15%;
+  }
+  #btn{
+   
+    margin-left: 15%;
+ 
+ }
+  .skillsNew{
+    width: 20%;
+    height: 120px;
+    justify-content: center;
+  }
+  .proyect{
+    display: flex;
+    
+    justify-content: center;
+    
+      background: #F6F8EB;
+  border: 5px solid #5A7ECC;
+  box-sizing: border-box;
+  width: 90%;
+  margin:5%
+  
+  }
+  #lastImg{
+    position: static;
+    width: 25%;
+    margin-left:37.5%;
+    margin-right: 37.5%;
+    top: 0;
+    
+}
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+  #card {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 30%;
+    margin-left: 0;
+  }
+  .buttons{
+    margin-left: 0;
+    margin: 2%;
+ 
+ }
+  .skillsNew{
+    width: 33.33%;
+    height: 120px;
+    justify-content: center;
+  }
+  .proyect{
+    display: flex;
+    flex-direction :column;
+    justify-content: center;
+    
+      background: #F6F8EB;
+  border: 5px solid #5A7ECC;
+  box-sizing: border-box;
+  width: 90%;
+  margin:5%
+  
+  }
+  #lastImg{
+    position: static;
+    width: 45%;
+    margin-left:27.5%;
+    margin-right: 27.5%;
+    top: 0;
+    
+}
+
+}
