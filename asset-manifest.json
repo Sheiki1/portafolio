@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.7976d99c.chunk.css",
+    "main.js": "/portafolio/static/js/main.96f280a2.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.96f280a2.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.6d304cc1.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.6d304cc1.js.map",
+    "static/js/2.b6d4933d.chunk.js": "/portafolio/static/js/2.b6d4933d.chunk.js",
+    "static/js/2.b6d4933d.chunk.js.map": "/portafolio/static/js/2.b6d4933d.chunk.js.map",
+    "index.html": "/portafolio/index.html",
+    "precache-manifest.3e9a93a44f41c4a392e94cd367e1677e.js": "/portafolio/precache-manifest.3e9a93a44f41c4a392e94cd367e1677e.js",
+    "service-worker.js": "/portafolio/service-worker.js",
+    "static/css/main.7976d99c.chunk.css.map": "/portafolio/static/css/main.7976d99c.chunk.css.map",
+    "static/js/2.b6d4933d.chunk.js.LICENSE.txt": "/portafolio/static/js/2.b6d4933d.chunk.js.LICENSE.txt",
+    "static/media/home.css": "/portafolio/static/media/photo.68a0ede7.jpg",
+    "static/media/triangulo1.png": "/portafolio/static/media/triangulo1.d2ba35dd.png",
+    "static/media/triangulo2.png": "/portafolio/static/media/triangulo2.1d8d8686.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d304cc1.js",
+    "static/js/2.b6d4933d.chunk.js",
+    "static/css/main.7976d99c.chunk.css",
+    "static/js/main.96f280a2.chunk.js"
+  ]
+}
